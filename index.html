@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontAwesome.css">
+	<title> Title </title>
+</head>
+<body>
+	<header class="header">
+		<div class="container clearfix">
+			<div class="left-container">
+				<a href="#"> WebSRC </a>
+			</div>
+			<div class="right-container">
+				<ul class="nav-menu clearfix">
+					<li>
+						<a href="#"> Home </a> 
+					<li>
+					<li>
+						<a href="dashboard.html"> Explore v1.0 </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section class="banner">
+		<div class="container clearfix">
+			<h1> WebSRC </h1>
+			<span> A Dataset For Web-Based Structual Reading Comprehension. </span>
+			<button class="download-button"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i> Download </button>
+		</div>
+	</section>
+	<section class="main-content">
+		<div class="container clearfix">
+			<div class="row">
+				<div class="col-md-5">
+					<div class="info-container">
+						<span class="info-title">
+							<i class="fa fa-question-circle-o" aria-hidden="true"></i>
+							What is WebSRC?
+						</span>
+						<p>
+							WebSRC is a novel <strong>Web</strong>-based <strong>S</strong>tructural <strong>R</strong>eading <strong>C</strong>omprehension dataset. It consists of  0.44M question-answer pairs, which are collected from 6.5K web pages with corresponding HTML source code, screenshots and metadata. Each question in WebSRC requires a certain structural understanding of a web page to answer, and the answer is either a text span on the web page or yes/no.
+						</p>
+						<button class="action-button" style="display: none;">
+							Button 1
+						</button>
+						<button class="inverse-button" style="display: none;">
+							Button 2
+						</button>
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="info-container">
+						<span class="info-title">
+							<i class="fa fa-bar-chart" aria-hidden="true"></i>
+							Leaderboard
+						</span>
+						<p>
+						Three metrics, i.e. Exact Match (EM), F1 score, and Path Overlap Score (POS), are used to evaluate on the test set of WebSRC. Please refer to the paper to find more details about evaluation metrics.
+						</p>
+						<table class="leader-board">
+							<tbody>
+								<tr>
+									<th> Rank </th>
+									<th> Model </th>
+									<th> EM </th>
+									<th> F1 </th>
+									<th> POS </th>
+								</tr>
+								<tr class="human-row">
+									<td></td>
+									<td>
+										Human Performance
+										<p> Shanghai Jiao Tong University </p>
+										<a href=""> http://arxiv.org/abs/2001.09694 </a>
+									</td>
+									<td class="stat"> 86.831 </td>
+									<td class="stat"> 89.452 </td>
+									<td class="stat"> 89.452 </td>
+								</tr>
+								<tr>
+									<td>
+										1
+										<span>
+											Apr 06, 2020
+										</span>
+									</td>
+									<td>
+										ALBERT + MTDA + SFVerifier (ensemble model)
+										<p> QIANXIN </p>
+									</td>
+									<td class="stat"> 86.831 </td>
+									<td class="stat"> 89.452 </td>
+									<td class="stat"> 89.452 </td>
+								</tr>
+								<tr>
+									<td>
+										2
+										<span>
+											Apr 06, 2020
+										</span>
+									</td>
+									<td>
+										ALBERT + MTDA + SFVerifier (ensemble model)
+										<p> QIANXIN </p>
+									</td>
+									<td class="stat"> 86.831 </td>
+									<td class="stat"> 89.452 </td>
+									<td class="stat"> 89.452 </td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer clearfix">
+		<a href=""> SJTU NLP Group <a>
+	</section>
+</body>
+</html>
