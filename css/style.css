@@ -356,3 +356,8 @@ section.main-content
 	position: fixed;
 	bottom: 0;
 }
+a.download-hyperlink
+{
+	text-decoration: none;
+	outline: none;
+}
