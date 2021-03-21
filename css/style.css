@@ -64,7 +64,7 @@ section.banner
 {
 	font-size: 80px;
 	color: #fff;
-	font-weight: 200;
+	font-weight: 100;
 	margin-bottom: 0px;
 }
 .banner span
@@ -200,7 +200,7 @@ section.main-content
 {
 	background-color: #f3f3f3;
 }
-.leader-board tr>td>span
+.leader-board tr>td>span, span.news-date
 {
 	display: block;
 	background-color: #777;
@@ -208,6 +208,7 @@ section.main-content
 	color: #fff;
 	padding: 2px;
 	font-size: 12px;
+	text-align: center;
 }
 .footer
 {
@@ -331,4 +332,27 @@ section.main-content
 {
 	background-color: rgba(10, 230, 100, 0.7);
 	color: #fff; 
+}
+.news-context
+{
+	display: block;
+	padding: 0px 10px;
+}
+.download-link
+{
+	color: inherit;
+	text-decoration: none;
+}
+.download-link:hover
+{
+	color: inherit;
+}
+.download-link>i
+{
+	margin-right: 10px;
+}
+.fixed-bottom
+{
+	position: fixed;
+	bottom: 0;
 }
