@@ -178,12 +178,14 @@ section.main-content
 .leader-board tr>td
 {
 	font-size: 14px;
+	font-weight: 500;
 }
 .leader-board tr>td>p
 {
 	font-size: 14px;
 	font-style: italic;
 	font-weight: 300;
+	color: #555;
 	padding: 0px;
 	border: none;
 	margin-bottom: 0px;
@@ -360,4 +362,13 @@ a.download-hyperlink
 {
 	text-decoration: none;
 	outline: none;
+}
+a {
+  color: #286dc0;
+}
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none !important;
+  color: #463494;
 }
